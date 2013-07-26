@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		213FB35317A21E59002EA528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FB35217A21E59002EA528 /* UIKit.framework */; };
+		213FB35517A21E59002EA528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FB35417A21E59002EA528 /* Foundation.framework */; };
+		213FB35717A21E59002EA528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FB35617A21E59002EA528 /* CoreGraphics.framework */; };
+		213FB37117A21E59002EA528 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FB37017A21E59002EA528 /* SenTestingKit.framework */; };
+		213FB37217A21E59002EA528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FB35217A21E59002EA528 /* UIKit.framework */; };
+		213FB37317A21E59002EA528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FB35417A21E59002EA528 /* Foundation.framework */; };
+		213FB38A17A21EB1002EA528 /* SAMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FB38917A21EB1002EA528 /* SAMLoadingView.m */; };
+		213FB38B17A21EB1002EA528 /* SAMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FB38917A21EB1002EA528 /* SAMLoadingView.m */; };
+		213FB39617A21EB7002EA528 /* SAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FB38F17A21EB7002EA528 /* SAMAppDelegate.m */; };
+		213FB39717A21EB7002EA528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FB39117A21EB7002EA528 /* main.m */; };
+		213FB39817A21EB7002EA528 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 213FB39417A21EB7002EA528 /* Default-568h@2x.png */; };
+		213FB3A217A21EBB002EA528 /* SAMLoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FB39F17A21EBB002EA528 /* SAMLoadingViewTests.m */; };
+		213FB3A517A221AA002EA528 /* SAMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FB3A417A221AA002EA528 /* SAMRootViewController.m */; };
+		213FB3A617A22567002EA528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FB35617A21E59002EA528 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		213FB37417A21E59002EA528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 213FB34717A21E59002EA528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 213FB34E17A21E59002EA528;
+			remoteInfo = SAMLoadingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		213FB34F17A21E59002EA528 /* SAMLoadingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAMLoadingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		213FB35217A21E59002EA528 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		213FB35417A21E59002EA528 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		213FB35617A21E59002EA528 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		213FB36F17A21E59002EA528 /* SAMLoadingViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAMLoadingViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		213FB37017A21E59002EA528 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		213FB38817A21EB1002EA528 /* SAMLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMLoadingView.h; sourceTree = "<group>"; };
+		213FB38917A21EB1002EA528 /* SAMLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMLoadingView.m; sourceTree = "<group>"; };
+		213FB38E17A21EB7002EA528 /* SAMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMAppDelegate.h; sourceTree = "<group>"; };
+		213FB38F17A21EB7002EA528 /* SAMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMAppDelegate.m; sourceTree = "<group>"; };
+		213FB39117A21EB7002EA528 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		213FB39217A21EB7002EA528 /* SAMLoadingView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SAMLoadingView-Prefix.pch"; sourceTree = "<group>"; };
+		213FB39417A21EB7002EA528 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		213FB39517A21EB7002EA528 /* SAMLoadingView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SAMLoadingView-Info.plist"; sourceTree = "<group>"; };
+		213FB39D17A21EBB002EA528 /* SAMLoadingViewTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SAMLoadingViewTests-Info.plist"; sourceTree = "<group>"; };
+		213FB39F17A21EBB002EA528 /* SAMLoadingViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMLoadingViewTests.m; sourceTree = "<group>"; };
+		213FB3A317A221AA002EA528 /* SAMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMRootViewController.h; sourceTree = "<group>"; };
+		213FB3A417A221AA002EA528 /* SAMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMRootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		213FB34C17A21E59002EA528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213FB35317A21E59002EA528 /* UIKit.framework in Frameworks */,
+				213FB35517A21E59002EA528 /* Foundation.framework in Frameworks */,
+				213FB35717A21E59002EA528 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213FB36B17A21E59002EA528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213FB3A617A22567002EA528 /* CoreGraphics.framework in Frameworks */,
+				213FB37117A21E59002EA528 /* SenTestingKit.framework in Frameworks */,
+				213FB37217A21E59002EA528 /* UIKit.framework in Frameworks */,
+				213FB37317A21E59002EA528 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213FB34617A21E59002EA528 = {
+			isa = PBXGroup;
+			children = (
+				213FB38717A21EB1002EA528 /* SAMLoadingView */,
+				213FB38C17A21EB7002EA528 /* Example */,
+				213FB39A17A21EBB002EA528 /* Tests */,
+				213FB35117A21E59002EA528 /* Frameworks */,
+				213FB35017A21E59002EA528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		213FB35017A21E59002EA528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				213FB34F17A21E59002EA528 /* SAMLoadingView.app */,
+				213FB36F17A21E59002EA528 /* SAMLoadingViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		213FB35117A21E59002EA528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				213FB35217A21E59002EA528 /* UIKit.framework */,
+				213FB35417A21E59002EA528 /* Foundation.framework */,
+				213FB35617A21E59002EA528 /* CoreGraphics.framework */,
+				213FB37017A21E59002EA528 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		213FB38717A21EB1002EA528 /* SAMLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				213FB38817A21EB1002EA528 /* SAMLoadingView.h */,
+				213FB38917A21EB1002EA528 /* SAMLoadingView.m */,
+			);
+			path = SAMLoadingView;
+			sourceTree = "<group>";
+		};
+		213FB38C17A21EB7002EA528 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				213FB38D17A21EB7002EA528 /* Classes */,
+				213FB39017A21EB7002EA528 /* Other Sources */,
+				213FB39317A21EB7002EA528 /* Resources */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		213FB38D17A21EB7002EA528 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				213FB38E17A21EB7002EA528 /* SAMAppDelegate.h */,
+				213FB38F17A21EB7002EA528 /* SAMAppDelegate.m */,
+				213FB3A317A221AA002EA528 /* SAMRootViewController.h */,
+				213FB3A417A221AA002EA528 /* SAMRootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		213FB39017A21EB7002EA528 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				213FB39117A21EB7002EA528 /* main.m */,
+				213FB39217A21EB7002EA528 /* SAMLoadingView-Prefix.pch */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		213FB39317A21EB7002EA528 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				213FB39417A21EB7002EA528 /* Default-568h@2x.png */,
+				213FB39517A21EB7002EA528 /* SAMLoadingView-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		213FB39A17A21EBB002EA528 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				213FB39D17A21EBB002EA528 /* SAMLoadingViewTests-Info.plist */,
+				213FB39F17A21EBB002EA528 /* SAMLoadingViewTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		213FB34E17A21E59002EA528 /* SAMLoadingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213FB38117A21E59002EA528 /* Build configuration list for PBXNativeTarget "SAMLoadingView" */;
+			buildPhases = (
+				213FB34B17A21E59002EA528 /* Sources */,
+				213FB34C17A21E59002EA528 /* Frameworks */,
+				213FB34D17A21E59002EA528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMLoadingView;
+			productName = SAMLoadingView;
+			productReference = 213FB34F17A21E59002EA528 /* SAMLoadingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		213FB36E17A21E59002EA528 /* SAMLoadingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213FB38417A21E59002EA528 /* Build configuration list for PBXNativeTarget "SAMLoadingViewTests" */;
+			buildPhases = (
+				213FB36A17A21E59002EA528 /* Sources */,
+				213FB36B17A21E59002EA528 /* Frameworks */,
+				213FB36C17A21E59002EA528 /* Resources */,
+				213FB36D17A21E59002EA528 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				213FB37517A21E59002EA528 /* PBXTargetDependency */,
+			);
+			name = SAMLoadingViewTests;
+			productName = SAMLoadingViewTests;
+			productReference = 213FB36F17A21E59002EA528 /* SAMLoadingViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		213FB34717A21E59002EA528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SAM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sam Soffes";
+			};
+			buildConfigurationList = 213FB34A17A21E59002EA528 /* Build configuration list for PBXProject "SAMLoadingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 213FB34617A21E59002EA528;
+			productRefGroup = 213FB35017A21E59002EA528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				213FB34E17A21E59002EA528 /* SAMLoadingView */,
+				213FB36E17A21E59002EA528 /* SAMLoadingViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		213FB34D17A21E59002EA528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213FB39817A21EB7002EA528 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213FB36C17A21E59002EA528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		213FB36D17A21E59002EA528 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		213FB34B17A21E59002EA528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213FB38A17A21EB1002EA528 /* SAMLoadingView.m in Sources */,
+				213FB39617A21EB7002EA528 /* SAMAppDelegate.m in Sources */,
+				213FB39717A21EB7002EA528 /* main.m in Sources */,
+				213FB3A517A221AA002EA528 /* SAMRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213FB36A17A21E59002EA528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213FB38B17A21EB1002EA528 /* SAMLoadingView.m in Sources */,
+				213FB3A217A21EBB002EA528 /* SAMLoadingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		213FB37517A21E59002EA528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 213FB34E17A21E59002EA528 /* SAMLoadingView */;
+			targetProxy = 213FB37417A21E59002EA528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		213FB37F17A21E59002EA528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Weverything";
+			};
+			name = Debug;
+		};
+		213FB38017A21E59002EA528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "-Weverything";
+			};
+			name = Release;
+		};
+		213FB38217A21E59002EA528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/SAMLoadingView-Prefix.pch";
+				INFOPLIST_FILE = "Example/Resources/SAMLoadingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		213FB38317A21E59002EA528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/SAMLoadingView-Prefix.pch";
+				INFOPLIST_FILE = "Example/Resources/SAMLoadingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		213FB38517A21E59002EA528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SAMLoadingView.app/SAMLoadingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				INFOPLIST_FILE = "Tests/SAMLoadingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		213FB38617A21E59002EA528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SAMLoadingView.app/SAMLoadingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				INFOPLIST_FILE = "Tests/SAMLoadingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		213FB34A17A21E59002EA528 /* Build configuration list for PBXProject "SAMLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213FB37F17A21E59002EA528 /* Debug */,
+				213FB38017A21E59002EA528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213FB38117A21E59002EA528 /* Build configuration list for PBXNativeTarget "SAMLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213FB38217A21E59002EA528 /* Debug */,
+				213FB38317A21E59002EA528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213FB38417A21E59002EA528 /* Build configuration list for PBXNativeTarget "SAMLoadingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213FB38517A21E59002EA528 /* Debug */,
+				213FB38617A21E59002EA528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 213FB34717A21E59002EA528 /* Project object */;
+}
