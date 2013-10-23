@@ -69,7 +69,7 @@ static CGFloat const kSAMLoadingViewIndicatorRightMargin = 8.0f;
 								kSAMLoadingViewIndicatorSize);
 	
     CGSize textSize;
-    if ([self.textLabel.text respondsToSelector:@selector(sizeWithAttributes:)]) {
+    if ([self.textLabel.text respondsToSelector:@selector(boundingRectWithSize:options:attributes:context:)]) {
         CGRect textRect = [self.textLabel.text boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:self.textLabel.font} context:nil];
         textSize = textRect.size;
     } else {
