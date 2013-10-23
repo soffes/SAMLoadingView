@@ -68,8 +68,17 @@ static CGFloat const kSAMLoadingViewIndicatorRightMargin = 8.0f;
 	CGSize maxSize = CGSizeMake(frame.size.width - (kSAMLoadingViewInteriorPadding * 2.0f) - kSAMLoadingViewIndicatorSize - kSAMLoadingViewIndicatorRightMargin,
 								kSAMLoadingViewIndicatorSize);
 	
-	CGSize textSize = [self.textLabel.text sizeWithFont:self.textLabel.font constrainedToSize:maxSize
-									  lineBreakMode:NSLineBreakByWordWrapping];
+    CGSize textSize;
+    if ([self.textLabel.text respondsToSelector:@selector(sizeWithAttributes:)]) {
+        CGRect textRect = [self.textLabel.text boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:self.textLabel.font} context:nil];
+        textSize = textRect.size;
+    } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        textSize = [self.textLabel.text sizeWithFont:self.textLabel.font constrainedToSize:maxSize
+                                       lineBreakMode:NSLineBreakByWordWrapping];
+#pragma clang diagnostic pop
+    }
 	
 	// Calculate position
 	CGFloat totalWidth = textSize.width + kSAMLoadingViewIndicatorSize + kSAMLoadingViewIndicatorRightMargin;
