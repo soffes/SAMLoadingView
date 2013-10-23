@@ -2,7 +2,7 @@
 
 Simple loading view for UIKit.
 
-SAMLoadingView is tested on iOS 6 and requires ARC. Released under the [MIT license](LICENSE).
+SAMLoadingView is tested on iOS 6 &amp; 7 and requires ARC. Released under the [MIT license](LICENSE).
 
 ## Example
 
